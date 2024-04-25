@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter import messagebox 
-from tkinter import PhotoImage
 
 import random
 
@@ -182,6 +181,6 @@ class SnakeApp():
 
 if __name__ == "__main__":
     root = Tk()
-    root.iconbitmap("C:/Users/Eduardo/OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO/Escritorio/tictac/snake/snake.ico")
+    root.iconbitmap("snake.ico")
     game = SnakeApp(root)
     root.mainloop()
